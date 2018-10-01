@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: 'Josefin Slab', serif;
+}
+
+.showProduct{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.showProduct{
+    border-bottom: 1px solid #333;
+}
+.productList{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+.box{
+    width: 33%;
+    margin: auto;
+}
+.box img{
+    width: 240px;
+    height: 240px;
+}

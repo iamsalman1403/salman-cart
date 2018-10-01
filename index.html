@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping-cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cart-head">
+        <div class="head-text">
+            <h1>Shopping Cart</h1>
+        </div>
+    </div>
+    <div class="cart-main">
+
+        <div class="boxes">
+            <div class="box" id="product">
+                <p>Product</p>
+            </div>
+            
+            <div class="box" id="price">
+                <p>Price</p>
+            </div>
+            
+            <div class="box" id="quantity">
+                <p>Quantity</p>
+            </div>
+            
+            <div class="box" id="total">
+                <p>Total</p>
+            </div>
+        </div>
+
+        <!--Product-->
+        <div class="boxes">
+            <div class="box" id="product">
+                <!-- <div class="slideshow-container">
+                
+                    <div class="mySlides">
+                        <img src="adidas.webp" alt="">
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="adidas2.webp" alt="">
+                    </div>
+                
+                    <div class="mySlides">
+                        <img src="adidas3.webp" alt="">
+                    </div>
+                
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div> -->
+                <img src="adidas.webp" alt="">
+                <p>Adidas</p>
+                <p>Lorem ipsum dolor sit amet, adipisicing elit, neque voluptatem tempore molestiae, asperiores exercitationem assumenda dolores?</p>
+            </div>
+
+            <div class="box" id="price">
+                 <p>
+                     <span id="priceUsd">100</span> <span>$</span>
+                 </p>
+            </div>
+
+            <div class="box" id="quantity">
+                <input type="number" id="input" placeholder="Quantity...">
+            </div>
+
+            <div class="box" id="total">
+                <p>
+                    <span id="totalValue"></span> <span id="dollarSign">$</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cart-controls">
+        <div class="checkOut"></div>
+        <div class="checkOut"></div>
+        <div class="checkOut show">
+            <p>Total : <span id="totalAmt"></span> <span id="dollarSign1">$</span> </p>
+            <p>GST : <span id="gst"> 10 </span> <span>$</span></p>
+            <p>Shipping : <span id="shipping"> 2 </span> <span>$</span></p>
+            <p>Payable : <span id="lastPrice"> </span> <span id="dollarSign2">$</span></p>
+            <button id="btnCO">checkout</button>
+        </div>
+    </div>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

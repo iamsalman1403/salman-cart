@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: 'Josefin Slab', serif;
+}
+.cart-head{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.cart-head {
+    border-bottom: 1px solid #333;
+}
+.cart-main{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+#product{
+    width: 40%;
+    text-align: center;
+    /* background-color: #333; */
+}
+#price{
+    width: 20%;
+}
+#quantity{
+    width: 20%;
+}
+#input{
+    padding: 8px 16px;
+    border: 1px solid #333;
+}
+#total{
+    width: 20%;
+}
+#product img{
+    width: 240px;
+    height: 240px;
+}
+
+
+.cart-controls{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+.checkOut{
+width: 33%;
+/* background-color: #db0a5b; */
+margin: 8px;
+padding: 8px 8px;
+}
+/* .show{
+    background-color: #db0a5b;
+} */
+#btnCO{
+    background-color: #db0a5b;
+    /* background-color: whitesmoke; */
+    /* background-color: #f1f1f1f1; */
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+}
+
+
+
+
+/* .slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+} */
+
+
+/* .mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+} */
+
+/* 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: auto;
+  margin-left: -32px;
+  margin-top: -30px;
+  padding: 32px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+} */
+
+/* .next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} */
+
+/* .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+} */
